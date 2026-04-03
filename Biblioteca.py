@@ -36,7 +36,7 @@ class Utente:
         self.id_utente = id_utente
 
     def scheda(self):
-        print(f"Scheda utente: [Nome: {self.nome}, Età: {self.eta}, ID utente: {self.id_utente}]")
+        return f"Scheda utente: [Nome: {self.nome}, Età: {self.eta}, ID utente: {self.id_utente}]"
 
 
 class Prestito:
