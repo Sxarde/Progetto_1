@@ -77,6 +77,13 @@ utente1 = Utente("Mario", 30, 1)
 utente2 = Utente("Giovanni", 25, 2)
 utente3 = Utente("Francesco", 40, 3)
 
+utenti = [utente1, utente2, utente3]
+
+print("\n")
+print("------Utenti:------")
+for utente in utenti:
+    print(utente.scheda())
+
 prestiti = []
 try:
     prestito1 = presta_libro(utente1, libro1, 10)
